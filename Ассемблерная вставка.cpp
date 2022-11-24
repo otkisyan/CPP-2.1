@@ -75,5 +75,5 @@ int main() {
     MMXSum(c, d, N);
     end = GetCurrentTime();
     duration = GetDuration(end, start);
-    cout << "Час витрачений на + | C++ (MMX): " << duration << " міллісeкунд" << endl;
+    cout << "Час витрачений на + | MMX (int): " << duration << " міллісeкунд" << endl;
 }
